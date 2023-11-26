@@ -1,0 +1,173 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+#nav-container{
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    background-color: #fff;
+    flex-direction: row;
+    width: 100%;
+    height: 80px;
+}
+
+#brand-logo {
+    height: 50px;
+    width: 200px;
+    padding: 15px;
+    margin-left: 200px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 2px;
+    width: 100%;
+    left: 1000px;
+    position: absolute;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: grey;
+}
+
+li a:hover:not(.active){
+    color: lightgrey;
+}
+
+.active {
+    color: #a84c44;
+}
+ 
+.bg-image {
+    background-repeat: no-repeat;
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.4)0%, rgba(0,0,0,0.4)100%), url(https://griddigitalmarketing.com/wp-content/uploads/2019/01/digtal_marketing_for_small_businesses.jpg);
+    background-size: cover;
+    height: 920px;
+    left: 0px;
+    right: 0px;
+}
+
+.bg-image > h2 {
+    margin-bottom: 10px;
+    position: absolute;
+    margin-top: 270px;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 120px;
+    line-height: 1em;
+    text-align: center;
+    font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+}
+
+.bg-image > h3 {
+    position: absolute;
+    text-align: center;
+    margin-top: 540px;
+    width: 100%;
+    color: #fff;
+    font-size: 50px;
+    font-weight:lighter;
+}
+
+
+.bg-image > button {
+    position: absolute;
+    margin-top: 650px;
+    left: 40%;
+    border-radius: 4px;
+    background-color: #f16334;
+    height: 50px;
+    width: 250px;
+    border: 1px;
+    color: white;
+}
+
+#agency-info {
+    width: 100%;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+#agency-info > h1 {
+    color: grey;
+    font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+}
+
+#agency-info > h2 {
+    color: #2d3033;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+#agency-info > p{
+    margin-left: 40px;
+    font-size: 40px;
+    text-align: center;
+    color: #cac7c7;
+    font-weight: lighter;
+    background: transparent;
+}
+
+#services {
+    text-align: center;
+    background-color: #fff;
+    font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 20px;
+}
+
+#services > h2 {
+    color: grey;
+}
+
+#services > p {
+    text-align: center;
+}
+
+#blog {
+    text-align: center;
+    font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+}
+
+#blog > h1 {
+    color: grey;
+}
+
+#row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#blog p {
+    text-align: left;
+    width: 400px;
+}
+
+#contact > address {
+    text-align: center;
+}
+
+#contact > h1 {
+    text-align: center;
+    color: grey;
+}
+
+#contact > p {
+    text-align: center;
+}
